@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tools:LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ejercicios.DivResActivity">
+
+    <EditText
+        android:id="@+id/numeradorInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numerador"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/denominadorInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Denominador"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/decimalesInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de decimales"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:paddingTop="16dp"
+        android:textSize="18sp"/>
+</tools:LinearLayout>

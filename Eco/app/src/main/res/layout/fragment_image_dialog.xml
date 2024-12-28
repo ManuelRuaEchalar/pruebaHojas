@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="#1E2125">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/dialogContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:indeterminateTintMode="src_atop"
+                    android:indeterminateTint="#4CAF50"
+                    tools:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/statusIcon"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    tools:src="@android:drawable/ic_dialog_info"
+                    tools:visibility="visible" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/datoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:letterSpacing="0.05"
+                android:lineSpacingMultiplier="1.3"
+                android:gravity = "left"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                tools:text="Main Information Title" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3F4548"
+                android:layout_marginVertical="16dp"/>
+
+            <ImageView
+                android:id="@+id/categoryImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="16dp"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/datoExtraTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:alpha="0.9"
+                android:lineSpacingMultiplier="1.3"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                tools:text="Detailed additional information goes here" />
+
+            <TextView
+                android:id="@+id/listaResiduosTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:lineSpacingMultiplier="1.3"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:text="List of items or supplementary details" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

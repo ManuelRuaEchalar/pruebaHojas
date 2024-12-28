@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Estilo personalizado para SearchView -->
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Cambiar el tamaño y color del texto de búsqueda -->
+        <item name="android:textColor">#000000</item> <!-- Color del texto escrito -->
+        <item name="android:textSize">18sp</item> <!-- Tamaño del texto escrito -->
+        <item name="android:textColorHint">#888888</item> <!-- Color del hint (texto sugerido) -->
+        <!-- Cambiar el color del ícono de búsqueda y demás componentes si es necesario -->
+        <item name="android:queryBackground">@color/white</item> <!-- Fondo del área de búsqueda -->
+    </style>
+</resources>
+

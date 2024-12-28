@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_containers">
+
+    <fragment
+        android:id="@+id/navigation_containers"
+        android:name="com.example.eco.ui.containers.ContainersFragment"
+        android:label= "@string/title_containers"
+        tools:layout="@layout/fragment_containers" />
+
+    <fragment
+        android:id="@+id/navigation_games"
+        android:name="com.example.eco.ui.games.GamesFragment"
+        android:label="@string/title_games"
+        tools:layout="@layout/fragment_games" />
+
+    <fragment
+        android:id="@+id/navigation_classify"
+        android:name="com.example.eco.ui.classify.ClassifyFragment"
+        android:label="@string/title_classify"
+        tools:layout="@layout/fragment_classify" />
+
+
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.example.eco.ui.info.InfoFragment"
+        android:label="@string/title_info"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>

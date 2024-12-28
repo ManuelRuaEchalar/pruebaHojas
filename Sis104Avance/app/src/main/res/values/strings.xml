@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Sis104Avance</string>
+
+    <!--    Activity Principal-->
+
+    <string name="button_Ejercicios">EJERCICIOS</string>
+    <string name="button_Examenes">EXAMENES</string>
+    <string name="button_BaseDatos">BASE DE DATOS</string>
+    <string name="button_Graficos">GRAFICOS</string>
+    <string name="button_Salir">SALIR</string>
+
+    <!-- Activity ejercicios -->
+
+    <string name="button_Ecuacion2doGrado">Ecuacion Segundo Grado</string>
+    <string name="button_salir_Ejercicios">Salir ejercicios</string>
+
+    <!-- Activity ecuacion de 2do grado -->
+
+    <string name="button_ResolverEcuacion2doGrado">Resolver Ecuacion Segundo Grado</string>
+    <string name="textViewResultadoEcuacion2doGrado">Resultado</string>
+    <string name="button_Estadistica">Estadistica</string>
+    <string name="button_salir_Ecuacion2doGrado">Salir</string>
+
+    <!-- Activity examenes -->
+
+    <string name="button_PrimerParcial">1er. Parcial</string>
+    <string name="button_SegundoParcial">2do. Parcial</string>
+    <string name="button_ExamenFinal">Examen Final</string>
+    <string name="button_SalirParciales">Salir</string>
+
+    <!-- Activity Graficos -->
+
+    <string name="buttonGraficos2d">Ver Grafico</string>
+    <string name="buttonGraficosFractal">Ver Fractal</string>">
+    <string name="buttonGraficosSalir">Salir</string>
+    <string name="textViewTituloEstadistica">ESTADISTICA</string>
+
+
+</resources>

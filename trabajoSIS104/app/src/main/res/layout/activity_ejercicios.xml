@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ejercicios.EjerciciosActivity">
+
+    <Button
+        android:id="@+id/buttonEcuacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuacion" />
+
+    <Button
+        android:id="@+id/buttonMultiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicacion" />
+
+    <Button
+        android:id="@+id/buttonValidar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validar" />
+
+    <Button
+        android:id="@+id/buttonRecursiva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recursiva" />
+
+    <Button
+        android:id="@+id/buttonComplejo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complejos" />
+
+    <Button
+        android:id="@+id/buttonDivRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dividir" />
+
+
+    <Button
+        android:id="@+id/buttonRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/buttonSerie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serie" />
+
+    <Button
+        android:id="@+id/buttonPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persona" />
+
+    <Button
+        android:id="@+id/buttonEjercicioSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir" />
+</LinearLayout>

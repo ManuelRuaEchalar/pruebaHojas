@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ejercicios.EcuacionActivity">
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="A" />
+
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="B" />
+
+    <EditText
+        android:id="@+id/editTextTextC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/buttonResolverEcuacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resolver" />
+
+    <TextView
+        android:id="@+id/textViewResultadoEcuacion"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text=""
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonSalirEcuacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir" />
+</LinearLayout>

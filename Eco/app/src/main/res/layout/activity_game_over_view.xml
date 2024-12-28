@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.eco.ui.games.minigamecuatro.GameOverView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Empty LinearLayout, consider removing if not needed -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:text="Has perdido"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:fontFamily="@font/kenney_blocks" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/TextViewPP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="Puntos de Partida: "
+                    android:textColor="@android:color/holo_green_dark"
+                    android:fontFamily="@font/kenney_blocks"/>
+
+                <TextView
+                    android:id="@+id/tvPoints"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="50"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:fontFamily="@font/kenney_blocks"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnExit"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/salir" />
+
+            <ImageButton
+                android:id="@+id/btnRestart"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/reinicio" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

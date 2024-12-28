@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_containers"
+        android:icon="@drawable/location_on_24dp_000_fill0_wght400_grad0_opsz24"
+        android:title="@string/title_containers" />
+
+    <item
+        android:id="@+id/navigation_classify"
+        android:icon="@drawable/recycling_24dp_c9c9c9_fill0_wght400_grad0_opsz24"
+        android:title="@string/title_classify" />
+
+    <item
+        android:id="@+id/navigation_games"
+        android:icon="@drawable/ic_game_gray_24dp"
+        android:title="@string/title_games" />
+
+    <!--Add "Game" item-->
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/info_24dp_c9c9c9_fill0_wght400_grad0_opsz24"
+        android:title="@string/title_info" />
+
+
+</menu>
+

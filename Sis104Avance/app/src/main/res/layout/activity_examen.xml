@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".examenes.ExamenActivity">
+
+
+    <Button
+        android:id="@+id/button_PrimerParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_PrimerParcial" />
+
+    <Button
+        android:id="@+id/button_Segundo_Parcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_SegundoParcial" />
+
+    <Button
+        android:id="@+id/button_Examen_Final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ExamenFinal" />
+
+    <Button
+        android:id="@+id/button_SalirFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_SalirParciales" />
+</LinearLayout>

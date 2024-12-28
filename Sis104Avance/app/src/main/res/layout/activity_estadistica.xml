@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ejercicios.EstadisticaActivity">
+
+    <EditText
+        android:id="@+id/editTextEstadistica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/textViewTituloEstadistica"
+        />
+    <EditText
+        android:id="@+id/editTextCaja1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="A"
+        />
+
+    <EditText
+        android:id="@+id/editTextCaja2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="B"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextCaja3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="C"
+        />
+
+    <Button
+        android:id="@+id/button_VerGrafico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver grafico" />
+
+
+
+    <TextView
+        android:id="@+id/textViewGraficos"
+        android:layout_width="336dp"
+        android:layout_height="433dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonSalirEstadistica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ButtonEstadistica" />
+
+
+</LinearLayout>

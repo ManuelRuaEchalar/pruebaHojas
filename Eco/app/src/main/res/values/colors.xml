@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1A1B41</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#1A1B41</color>
+    <color name="purple_500">#1A1B41</color>
+    <color name="purple_700">#1A1B41</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="azul">#1A1B41</color>
+    <color name="nav">#F5F5F5</color>
+    <color name="colorIconActive">#1A1B41</color>
+    <color name="colorIconInactive">#C9C9C9</color>
+    <color name="fragmentBackground">#FFC107</color> <!-- Un color amarillo, por ejemplo -->
+    <color name="mainBackground">#b8c99d</color> <!-- Un color amarillo, por ejemplo -->
+    <color name="dashBackground">#595151</color> <!-- Un color amarillo, por ejemplo -->
+    <color name="victory_green">#5bfa6f</color> <!-- Un verde personalizado -->
+    <color name="defeat_red">#e84f4f</color>    <!-- Un rojo personalizado -->
+    <!-- Dynamic gradient colors for different card types -->
+    <!-- Red Gradient -->
+    <color name="red_gradient_start">#FF5E5E</color>
+    <color name="red_gradient_end">#C21807</color>
+
+    <!-- Green Gradient -->
+    <color name="green_gradient_start">#4CAF50</color>
+    <color name="green_gradient_end">#1B5E20</color>
+
+    <!-- Blue Gradient -->
+    <color name="blue_gradient_start">#2196F3</color>
+    <color name="blue_gradient_end">#0D47A1</color>
+
+    <!-- Yellow Gradient -->
+    <color name="yellow_gradient_start">#FFC107</color>
+    <color name="yellow_gradient_end">#FF9800</color>
+
+    <!-- Black Gradient -->
+    <color name="black_gradient_start">#424242</color>
+    <color name="black_gradient_end">#212121</color>
+
+    <!-- Gray Gradient -->
+    <color name="gray_gradient_start">#9E9E9E</color>
+    <color name="gray_gradient_end">#616161</color>
+    <color name="gray">#808080</color>
+</resources>

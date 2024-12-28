@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ejercicios.MultiplicacionActivity">
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="A" />
+
+    <EditText
+        android:id="@+id/editTextTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/buttonMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicar" />
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textViewB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-----------------------------------"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textViewResultadoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ResultadoA"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textViewResultadoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ResultadoB"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-----------------------------------"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textViewResultadoFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ResultadoFinal"
+        android:gravity="center" />
+</LinearLayout>
